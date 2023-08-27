@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+
+<body>
+    <!--Header page and menu-->
+    <header>
+        <div class="menu">
+            <ul>
+                <li class="decoration-line" onclick="selectedMenu()">
+                    <a href="#section-works">Meus trabalhos</a>
+                </li>
+                <li class="decoration-line"  onclick="selectedMenu()">
+                    <a href="#experiences">Experiencias</a>
+                </li>
+                <li class="decoration-line"  onclick="selectedMenu()">
+                    <a href="#skills">Habilidades</a>
+                </li>
+                <li>
+                    <a href="">CH</a>
+                </li>
+                <li class="decoration-line"  onclick="selectedMenu()">
+                    <a href="#about-me">Sobre mim</a>
+                </li>
+                <li class="decoration-line"  onclick="selectedMenu()">
+                    <a href="">Configurações <img src="./icons/down.svg" alt=""></a>
+                </li>
+                <li>
+                    <div class="btn-contact btn1">
+                        <a href="#contact">Contacte-me</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Main page-->
+    <main class="content">
+        <!--Page Description-->
+        <section class="page-description">
+            <div class="title">
+                <h1>Meu nome é <h1>Charles</h1>
+                </h1>
+                <p>Sou desenvolvedor fullstack com dois anos de experiência, aqui você vai saber um pouco sobre mim e
+                    alguns dos meus trabalhos</p>
+            </div>
+            <div class="image">
+                <img src="./img/my-photo.png" alt="">
+            </div>
+        </section>
+
+        <!--My works-->
+        <section class="grid-works" id="section-works">
+            <div class="title-sections">
+                <h2>Meus trabalhos</h2>
+            </div>
+            <div class="works-item" onclick="openModal()">
+                <div class="image">
+                    <!-- <img src="" alt=""> -->
+                </div>
+                <div class="description">
+                    <h3>Desapega</h3>
+                    <p>Web site de anuncios, para divulgar produtos e oferecer serviços, criado para colocar meus
+                        conhecimentos em pratica</p>
+                </div>
+            </div>
+            <div class="works-item" onclick="openModal()">
+                <div class="image">
+                    <!-- <img src="" alt=""> -->
+                </div>
+                <div class="description">
+                    <h3>Desapega</h3>
+                    <p>Web site de anuncios, para divulgar produtos e oferecer serviços, criado para colocar meus
+                        conhecimentos em pratica</p>
+                </div>
+            </div>
+            <div class="works-item" onclick="openModal()">
+                <div class="image">
+                    <!-- <img src="" alt=""> -->
+                </div>
+                <div class="description">
+                    <h3>Desapega</h3>
+                    <p>Web site de anuncios, para divulgar produtos e oferecer serviços, criado para colocar meus
+                        conhecimentos em pratica</p>
+                </div>
+            </div>
+            <div class="works-item" onclick="openModal()">
+                <div class="image">
+                    <!-- <img src="" alt=""> -->
+                </div>
+                <div class="description">
+                    <h3>Desapega</h3>
+                    <p>Web site de anuncios, para divulgar produtos e oferecer serviços, criado para colocar meus
+                        conhecimentos em pratica</p>
+                </div>
+            </div>
+        </section>
+
+        <!--My Experiences-->
+        <section class="grid-experiences" id="experiences">
+            <div class="title-sections">
+                <h2>Experiencias</h2>
+            </div>
+            <div class="carousel">
+                <div class="return" id="prevBtn">
+                    <a><img class="return-icon" src="./icons/down.svg" alt=""></a>
+                </div>
+                <div class="next" id="nextBtn">
+                    <a><img class="next-icon" src="./icons/down.svg" alt=""></a>
+                </div>
+            
+                <div class="cr">
+                    <div class="experiences">
+                        <div class="experiences-type">
+                            <div>
+                                <h2>Teste</h2>
+                            </div>
+                            <div>
+                                <p>2021-Present</p>
+                            </div>
+                        </div>
+                        <div class="experiences-description">
+                            <div>
+                                <h2>Ustore</h2>
+                            </div>
+                            <div>
+                                <p>Atuo como desenvolvedor full stack, criando soluções para o consumo de APIs de clouds publicas e privadas, criando novos relatorios, e corrigindo possiveis problemas.</p>
+                            </div>
+                        </div>
+                        <div class="experiences-tecnology">
+                            <div>
+                                <h2>Desenvolvedor Jr</h2>
+                            </div>
+                            <div class="buttons-tecnology">
+                                <div>
+                                    <span>Java</span>
+                                </div>
+                                <div>
+                                    <span>JS</span>
+                                </div>
+                                <div>
+                                    <span>HTML</span>
+                                </div>
+                                <div>
+                                    <span>CSS</span>
+                                </div>
+                                <div>
+                                    <span>Angular2+</span>
+                                </div>
+                                <div>
+                                    <span>HTML</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experiences">
+                        <div class="experiences-type">
+                            <div>
+                                <h2>Test2</h2>
+                            </div>
+                            <div>
+                                <p>2021-Present</p>
+                            </div>
+                        </div>
+                        <div class="experiences-description">
+                            <div>
+                                <h2>Ustore</h2>
+                            </div>
+                            <div>
+                                <p>Atuo como desenvolvedor full stack, criando soluções para o consumo de APIs de clouds publicas e privadas, criando novos relatorios, e corrigindo possiveis problemas.</p>
+                            </div>
+                        </div>
+                        <div class="experiences-tecnology">
+                            <div>
+                                <h2>Desenvolvedor Jr 3</h2>
+                            </div>
+                            <div class="buttons-tecnology">
+                                <div>
+                                    <span>Java</span>
+                                </div>
+                                <div>
+                                    <span>JS</span>
+                                </div>
+                                <div>
+                                    <span>HTML</span>
+                                </div>
+                                <div>
+                                    <span>CSS</span>
+                                </div>
+                                <div>
+                                    <span>Angular2+</span>
+                                </div>
+                                <div>
+                                    <span>HTML</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experiences">
+                        <div class="experiences-type">
+                            <div>
+                                <h2>Test3</h2>
+                            </div>
+                            <div>
+                                <p>2021-Present</p>
+                            </div>
+                        </div>
+                        <div class="experiences-description">
+                            <div>
+                                <h2>Ustore</h2>
+                            </div>
+                            <div>
+                                <p>Atuo como desenvolvedor full stack, criando soluções para o consumo de APIs de clouds publicas e privadas, criando novos relatorios, e corrigindo possiveis problemas.</p>
+                            </div>
+                        </div>
+                        <div class="experiences-tecnology">
+                            <div>
+                                <h2>Desenvolvedor Jr 3</h2>
+                            </div>
+                            <div class="buttons-tecnology">
+                                <div>
+                                    <span>Java</span>
+                                </div>
+                                <div>
+                                    <span>JS</span>
+                                </div>
+                                <div>
+                                    <span>HTML</span>
+                                </div>
+                                <div>
+                                    <span>CSS</span>
+                                </div>
+                                <div>
+                                    <span>Angular2+</span>
+                                </div>
+                                <div>
+                                    <span>HTML</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experiences">
+                        <div class="experiences-type">
+                            <div>
+                                <h2>Test4</h2>
+                            </div>
+                            <div>
+                                <p>2021-Present</p>
+                            </div>
+                        </div>
+                        <div class="experiences-description">
+                            <div>
+                                <h2>Ustore</h2>
+                            </div>
+                            <div>
+                                <p>Atuo como desenvolvedor full stack, criando soluções para o consumo de APIs de clouds publicas e privadas, criando novos relatorios, e corrigindo possiveis problemas.</p>
+                            </div>
+                        </div>
+                        <div class="experiences-tecnology">
+                            <div>
+                                <h2>Desenvolvedor Jr 3</h2>
+                            </div>
+                            <div class="buttons-tecnology">
+                                <div>
+                                    <span>Java</span>
+                                </div>
+                                <div>
+                                    <span>JS</span>
+                                </div>
+                                <div>
+                                    <span>HTML</span>
+                                </div>
+                                <div>
+                                    <span>CSS</span>
+                                </div>
+                                <div>
+                                    <span>Angular2+</span>
+                                </div>
+                                <div>
+                                    <span>HTML</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--My skills-->
+        <section class="grid-skills" id="skills">
+            <div class="title-sections">
+                <h2>Habilidades</h2>
+            </div>
+            <div class="card-skills">
+                <div class="skill-item">
+                    <div class="skill-title">
+                        <h2>FRONT-END</h2>
+                    </div>
+                    <div class="stack-skill">
+                        <div class="circle">
+                            <img src="./icons/stack-front/html.svg" alt="HTML">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-front/css.svg" alt="CSS">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-front/js.svg" alt="JavaScript">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-front/typescript.svg" alt="TypeScript">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-front/angular.svg" alt="Angular">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-front/node.svg" alt="node">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-title">
+                        <h2>BACK-END</h2>
+                    </div>
+                    <div class="stack-skill">
+                        <div class="circle">
+                            <img src="./icons/stack-back-end/java.svg" alt="HTML">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-back-end/spring.svg" alt="SPRING">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-back-end/api.svg" alt="ApiRest">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-back-end/mysql.svg" alt="Mysql">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-back-end/pgsql.svg" alt="Pgsql">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-back-end/mongodb.svg" alt="Mongodb">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-back-end/docker.svg" alt="Docker">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-back-end/rabbit.svg" alt="Rabbit">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-title">
+                        <h2>DEVOPS</h2>
+                    </div>
+                    <div class="stack-skill">
+                        <div class="circle">
+                            <img src="./icons/stack-version/aws.svg" alt="node">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-version/oracle.svg" alt="node">
+                        </div>
+                        <div class="circle">
+                            <img src="./icons/stack-version/git.svg" alt="node">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--About me-->
+        <section class="grid-about-me" id="about-me">
+            <div class="title-sections">
+                <h2>Sobre mim</h2>
+            </div>
+            <div class="about-me-grid">
+                <div class="card-my-image">
+                    <div class="image">
+                        <img src="./img/photo-about-me.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card-about-me">
+                <p>Me chamo Charles, tenho 27 anos e atualmente moro em Recife. Trabalho como Desenvolvedor Fullstack Jr, meu primeiro contato com a programação foi aos 15 anos quando, movido pela curiosidade, tentei criar um servidor de Lineage 2, um MMORPG que marcou bastante a minha adolescência. Depois disso, tomei gosto e procurei aprender mais sobre computação.
+
+               No início, fiz alguns cursos de hardware, porque era mais acessível, e depois entrei na universidade para cursar Análise e Desenvolvimento de Sistemas.</p>
+                    <br>
+
+                <p>Mais do que uma jornada profissional, tenho como metas pessoais evoluir constantemente na programação e expandir meus conhecimentos sobre várias tecnologias. Atualmente, minha stack está começando a aumentar. Algumas das tecnologias em que tenho um maior domínio incluem <span class="highlight">JAVA, JS, HTML, CSS, SQL, GIT</span> e frameworks como <span class="highlight">Angular</span> e <span class="highlight">Spring Boot</span>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact me-->
+        <section class="grid-contact" id="contact">
+            <div class="title-sections">
+                <h2>Contato</h2>
+            </div>
+            <div class="contact-card">
+                <div class="contact-feedback">
+                    <div class="title">
+                        <h2>Gostou do meu trabalho? </h2>
+                          <h2>Ficarei muito feliz em receber seu feedback.</h2>
+                    </div>
+                    <div class="icons">
+                        <div>
+                            <a href="https://www.linkedin.com/in/charles-henrique-5b432a143" target="_blank"><img src="./icons/linkedin.svg" alt=""></a>
+                        </div>
+                        <div>
+                            <a href=""><img src="./icons/git.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-content-card">
+                    <div class="form-contact">
+                        <div class="input-form">
+                            <label for="">Nome</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="input-form">
+                            <label for="">Email</label>
+                            <input class="opa" type="text" name="" id="">
+                        </div>
+                        <div class="input-form">
+                            <label for="">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea>
+                        </div>
+    
+                        <div class="button-form">
+                            <button>Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="display: flex; align-items: center; justify-content: center; padding: 40px;">
+        &copy; 2023 Charles Henrique DEV. All rights reserved.
+    </footer>
+
+    <!--Modal-->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Modal Title</h2>
+            <p>Modal content goes here.</p>
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+</body>
+
+</html>
